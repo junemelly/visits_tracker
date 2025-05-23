@@ -28,9 +28,9 @@ This project is my solution to the Flutter Mobile Engineer Technical Challenge. 
 -  **Modern UI/UX** prioritizing usability and intuitive design
 
 ## Screenshots
-![visits](https://github.com/user-attachments/assets/b96c3bfb-264a-4501-96bb-66d0c5dc3350)
-![addVisit](https://github.com/user-attachments/assets/756b54b1-f636-4fb6-b72b-8fea486c873b)
-![stats_img](https://github.com/user-attachments/assets/b45a5dd1-de04-409e-9244-058cd2813e6f)
+<img src="https://github.com/user-attachments/assets/b96c3bfb-264a-4501-96bb-66d0c5dc3350" width="300" />
+<img src="https://github.com/user-attachments/assets/756b54b1-f636-4fb6-b72b-8fea486c873b" width="300" />
+<img src="https://github.com/user-attachments/assets/b45a5dd1-de04-409e-9244-058cd2813e6f" width="300" />
 
 ---
 
@@ -167,7 +167,7 @@ class OfflineVisitsRepository implements VisitsRepository {
 ### Testing Strategy (Ready for Implementation)
 ```dart
 // Example test structure ready for implementation
-/*
+
 group('GetVisitsUseCase', () {
   late GetVisitsUseCase usecase;
   late MockVisitsRepository mockRepository;
@@ -175,7 +175,7 @@ group('GetVisitsUseCase', () {
   test('should return visits when repository call is successful', () async {
     // Test implementation ready with current architecture
   });
-});*/
+});
 
 ```
 
@@ -322,33 +322,6 @@ jobs:
 
 **Note**: CI/CD pipeline configuration is ready for implementation and can be deployed immediately.
 
----
 
-## Performance Metrics
-
-### Application Performance
-- **Cold Start Time**: < 3 seconds on mid-range Android devices
-- **Navigation Speed**: < 200ms between screens
-- **API Response Time**: < 1 second average (dependent on network)
-- **Memory Usage**: < 100MB during typical operation
-- **Build Time**: < 2 minutes for debug builds
-
-### Code Quality Metrics
-- **Architecture Adherence**: 100% - All code follows Clean Architecture principles
-- **Null Safety**: 100% - Sound null safety throughout application
-- **Linting Compliance**: 100% - No linting errors with flutter_lints
-- **Documentation Coverage**: Comprehensive README and inline code documentation
-
----
-
-## Conclusion
-
-This Flutter Visits Tracker successfully addresses all requirements from the technical challenge while demonstrating production-ready architecture and development practices. The Clean Architecture implementation with BLoC pattern provides a solid foundation for scaling, testing, and future feature development.
-
-The application showcases not just functional requirements completion, but also thoughtful architectural decisions that prioritize maintainability, scalability, and team collaboration - key considerations for enterprise mobile applications.
-
-**Time Investment**: ~8 hours total development time including architecture design, implementation, and documentation.
-
----
 
 
