@@ -28,13 +28,9 @@ This project is my solution to the Flutter Mobile Engineer Technical Challenge. 
 -  **Modern UI/UX** prioritizing usability and intuitive design
 
 ## Screenshots
- provided in
-| Visits List | Add Visit Form | Statistics Dashboard |
-|-------------|----------------|---------------------|
-![addVisit.png](../../../../Users/mac/Desktop/screenshots_app/addVisit.png)
-![stats_img.png](../../../../Users/mac/Desktop/screenshots_app/stats_img.png)
-![visits.png](../../../../Users/mac/Desktop/screenshots_app/visits.png)
-*Screenshots showing the complete user flow from viewing visits to adding new entries and analyzing statistics*
+![visits](https://github.com/user-attachments/assets/b96c3bfb-264a-4501-96bb-66d0c5dc3350)
+![addVisit](https://github.com/user-attachments/assets/756b54b1-f636-4fb6-b72b-8fea486c873b)
+![stats_img](https://github.com/user-attachments/assets/b45a5dd1-de04-409e-9244-058cd2813e6f)
 
 ---
 
